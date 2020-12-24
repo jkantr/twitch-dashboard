@@ -1,0 +1,16 @@
+.dashboard-container {
+  min-height: 100vh;
+}
+
+.login-button {
+  animation: login-button-spin infinite 2s alternate ease-in-out;
+}
+
+@keyframes login-button-spin {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
